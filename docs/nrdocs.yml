@@ -1,0 +1,42 @@
+title: Mar-x-Auder Protocol and Capability Guide
+description: A theory-first nrdocs guide for understanding Mar-x-Auder / ESP32 Marauder Wi-Fi and Bluetooth capabilities in controlled research environments.
+version: 0.1.0
+
+nav:
+  - Preface: 00-preface.md
+  - Ethical Research Boundaries: 01-ethical-research-boundaries.md
+  - Device Overview: 02-device-overview.md
+  - Foundations:
+      - Radio Basics: foundations/01-radio-basics.md
+      - Wi-Fi / 802.11 Basics: foundations/02-wifi-80211.md
+      - WPA, WPA2, and WPA3: foundations/03-wpa-wpa2-wpa3.md
+      - WPA Enterprise and Certificates: foundations/04-wpa-enterprise-and-certificates.md
+      - TCP/IP Networking: foundations/05-tcp-ip-networking.md
+      - DHCP, DNS, HTTP, and Captive Portals: foundations/06-dhcp-dns-http-captive-portals.md
+      - TLS, Certificates, and Trust: foundations/07-tls-certificates.md
+      - Bluetooth and BLE: foundations/08-bluetooth-ble.md
+      - Packet Capture and Analysis: foundations/09-packet-capture.md
+  - Abilities:
+      - Access Point Discovery: abilities/01-access-point-discovery.md
+      - Channel Analysis: abilities/02-channel-analysis.md
+      - Signal Monitoring: abilities/03-signal-monitoring.md
+      - Beacon Sniffing: abilities/04-beacon-sniffing.md
+      - Probe Request Observation: abilities/05-probe-request-observation.md
+      - Station Observation: abilities/06-station-observation.md
+      - Raw Packet Capture: abilities/07-raw-packet-capture.md
+      - Wardriving: abilities/08-wardriving.md
+      - Active Frame Transmission: abilities/09-active-frame-transmission.md
+      - Deauthentication and Disassociation: abilities/10-deauthentication-and-disassociation.md
+      - Beacon Spam: abilities/11-beacon-spam.md
+      - AP Clone Spam: abilities/12-ap-clone-spam.md
+      - Probe Request Flooding: abilities/13-probe-request-flooding.md
+      - Evil Portal: abilities/14-evil-portal.md
+      - Handshake and PMKID Capture: abilities/15-handshake-and-pmkid-capture.md
+      - WPA3 SAE and PMF: abilities/16-wpa3-sae-and-pmf.md
+      - Bluetooth Observation: abilities/17-bluetooth-observation.md
+      - Bluetooth Active Features: abilities/18-bluetooth-active-features.md
+  - Defense:
+      - Detection: defense/01-detection.md
+      - Hardening: defense/02-hardening.md
+      - User Awareness: defense/03-user-awareness.md
+      - Reporting Findings: defense/04-reporting.md
